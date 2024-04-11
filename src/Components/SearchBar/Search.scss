@@ -1,0 +1,108 @@
+.search-container {
+    position: relative;
+    margin: 20px;
+    bottom: 100px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 4px rgba(136, 135, 135, 0.393);
+}
+.location-drpdwn .dropdown-toggle {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    transition: ease 0.3s;
+}
+
+.location-drpdwn .dropdown-toggle:hover {
+    background-color: #ccc; 
+    transform: scale(1.05);
+}
+.location-style{
+    color: grey;
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+}
+
+
+.religion-drpdwn .dropdown-toggle{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: ease 0.3s;
+    
+}
+.religion-drpdwn .dropdown-toggle:hover{
+    background-color: #ccc; 
+    transform: scale(1.05);
+}
+.religion-style{
+    color: grey;
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.year-drpdwn .dropdown-toggle{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: ease 0.3s;
+    
+}
+.year-drpdwn .dropdown-toggle:hover{
+    background-color: #ccc; 
+    transform: scale(1.05);
+}
+.year-style{
+    color: grey;
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+}
+
+
+.type-drpdwn .dropdown-toggle{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: ease 0.3s;
+}
+.type-drpdwn .dropdown-toggle:hover{
+    background-color: #ccc;
+    transform: scale(1.05);
+}
+.type-style{
+    color: grey;
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.search-btn{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(1, 1, 68);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    transition: ease 0.3s;
+}
+.search-btn:hover{
+    transform: scale(1.05);
+}

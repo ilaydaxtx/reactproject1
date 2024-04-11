@@ -1,0 +1,135 @@
+.Hero {
+    width: 100vh;
+    height: 100vh;
+}
+.title-container {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.title-2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500px;
+    color: navy;
+}
+
+.text-container {
+    color: grey;
+    line-height: 1.5;
+}
+
+.dsc-btn {
+    margin-left: 50px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: rgb(255, 132, 0);
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    transition: ease 0.3s;
+}
+.dsc-btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 180, 0);
+    transform: scale(1.05);
+}
+
+.icon-btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    transition: ease 0.3s;
+    border-radius: 10px;
+}
+.icon-btn:hover {
+    background-color: rgba(128, 128, 128, 0.114);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.vazo-img{
+    size: 10px;
+    position: relative; 
+    left: 500px;
+    bottom: 320px;
+    margin: 0;
+}
+
+.bids-container {
+    display: flex;
+}
+
+.values-container {
+    position: relative;
+    bottom:  700px;
+    left: 1000px;
+}
+
+.keys-container {
+    position: relative;
+    bottom:  700px;
+    left: 1000px;
+    color: grey;
+}
+
+.year-btn {
+    position: relative;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px;
+    bottom:  945px;
+    left: 950px;
+    transition: ease 0.3s;
+} 
+
+.year-btn:hover{
+    background-color: navy;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.bids-btn {
+    position: relative;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px;
+    bottom:  860px;
+    left: 905px;
+    transition: ease 0.3s;
+}
+.bids-btn:hover{
+    background-color: navy;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.origin-btn {
+    position: relative;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 16px;
+    bottom:  770px;
+    left: 860px;
+    transition: ease 0.3s;
+}
+.origin-btn:hover{
+    background-color: navy;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+

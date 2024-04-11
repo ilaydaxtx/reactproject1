@@ -1,0 +1,46 @@
+.items-container {
+    display: flex;
+    justify-content: space-between;
+  
+    .item-card {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 10px;
+      width: 300px;
+      text-align: center;
+  
+      img {
+        width: 100%;
+        height: auto;
+      }
+  
+      h3 {
+        color: #333;
+        margin: 10px 0;
+      }
+  
+      .price {
+        color: red;
+        font-size: 1.5em;
+        margin: 5px 0;
+      }
+  
+      .details-button {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
