@@ -1,0 +1,63 @@
+.sub-container {
+    position: relative;
+  }
+  
+  .image-wrapper {
+    position: absolute;
+    margin-left: 10%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    max-width: 100%; 
+    height: auto;
+  }
+  
+  .content {
+    position: relative; 
+    z-index: 2;
+  }
+  .content h1{
+    position: relative;
+    top: 230px;
+    left: 190px;
+    color: white;
+  }
+  .content h4{
+    position: relative;
+    top: 230px;
+    left: 190px;
+    font-weight: 400;
+    color: white;
+  }
+  .sub-container .content .email {
+    text-align: left;
+  }
+  
+  .email{
+    position: relative;
+    top: 230px;
+    left: 190px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 10px;
+  }
+  
+  .email-icon{
+    position: relative;
+    top: 230px;
+    left: 170px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 2px solid rgb(65, 64, 64);
+  }
+ 
+  
+  
+  

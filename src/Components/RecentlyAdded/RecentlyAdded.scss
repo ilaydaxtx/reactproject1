@@ -1,10 +1,21 @@
+.recentlyadded{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 25px;
+  margin-bottom: 8px;
+  font-size: 50px;
+}
 .items-container {
     display: flex;
     justify-content: space-between;
+    
   
     .item-card {
+      box-shadow: 2px 2px 2px rgba(103, 103, 103, 0.295);
       border: 1px solid #ccc;
+      border-radius: 10px;
       padding: 20px;
+      padding-top: 30px;
       margin: 10px;
       width: 300px;
       text-align: center;
@@ -15,32 +26,68 @@
       }
   
       h3 {
-        color: #333;
         margin: 10px 0;
       }
   
       .price {
-        color: red;
+        display: flex;
+        justify-content: flex-start;
+        color: black;
         font-size: 1.5em;
-        margin: 5px 0;
+        font-weight: bold;
+        margin: 3px 0;
       }
   
-      .details-button {
-        background-color: #007bff;
-        border: none;
-        color: white;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 5px;
-  
-        &:hover {
-          background-color: #0056b3;
-        }
-      }
+      
     }
   }
+
+.item-card .item-title{
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  color:black;
+  
+}
+
+.item-year {
+  display: flex;
+  justify-content: flex-start;
+  color: grey;
+}
+.price-btn-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-button {
+  background-color: #ffffff;
+  border: 1px solid #7aa5d3;
+  color: #7aa5d3;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  top: 300px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+
+  &:hover {
+    transition: ease 0.3s;
+    transform: scale(1.05);
+    background-color: grey;
+    border: none;
+  }
+}
+
+.item-bids-container{
+  display: flex;
+  justify-content: space-between;
+}
+.item-bids {
+  color: black;
+}
+.item-bids2 {
+  color: grey;
+}

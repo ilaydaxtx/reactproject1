@@ -6,7 +6,7 @@ import { faLifeRing } from '@fortawesome/free-regular-svg-icons';
 import { faTrophy } from '@fortawesome/free-solid-svg-icons';
 import { faBuilding } from '@fortawesome/free-solid-svg-icons';
 
-import Vazo from '../Assets/vazo1.png';
+
 
 
 
@@ -30,7 +30,7 @@ const Hero = () => {
         <button className='icon-btn'><FontAwesomeIcon icon={faCircle} style={{ color: "#ff8400" }} size='xl' className='icon' /> Watch Video</button>
       </div>
       <div className='vazo-img'>
-      <img src={Vazo}/>
+      <img src="vazo1.png"/>
       </div>
       <div className='bids-container'>
         <div>

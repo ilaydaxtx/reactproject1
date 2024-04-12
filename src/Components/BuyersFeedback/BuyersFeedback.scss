@@ -1,0 +1,59 @@
+.fdbk-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.angel-container{
+    margin-right: 30px;
+    padding-top: 400px;
+    padding-left: 400px;
+    background-image: url('../Assets/melek.png');
+    max-width: 100%; 
+    height: auto;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.fdbk{
+    padding: 50px;
+}
+.fdbk h1{
+    font-size: 45px ;
+}
+.fdbk p{
+    color: rgb(141, 140, 140);
+    
+}
+.user-btn {
+    border: none;
+    outline: none;
+    padding: 30px;
+    border-radius: 40px;
+    background-color: rgba(234, 230, 230, 0.605);
+}
+.fdbk h2{
+    color: black;
+    position: relative;
+    top: -100px;
+    left: 95px;
+}
+.fdbk h3{
+    color: rgb(164, 164, 164);
+    position: relative;
+    top: -120px;
+    left: 95px;
+    font-size: 15px;
+}
+.stars{
+    position: relative;
+    top: -120px;
+    left: 95px;
+    font-size: 15px;
+}
+.star{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+

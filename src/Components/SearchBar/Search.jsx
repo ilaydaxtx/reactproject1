@@ -1,6 +1,8 @@
 import React from 'react';
 import { DropdownButton, Dropdown, Button } from 'react-bootstrap';
 import './Search.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 const Search = () => {
   const countries = ['Norway', 'ülke1', 'ülke2', 'ülke3'];
@@ -10,6 +12,7 @@ const Search = () => {
 
   return (
     <div className='search-container'>
+      
 
       <div className='location-drpdwn'>
         <DropdownButton  title="Location ⮟">
@@ -54,9 +57,10 @@ const Search = () => {
       </div>
 
       
-      <Button variant="primary" style={{ marginLeft: '10px' }} className='search-btn'>
+      <Button variant="primary" className='search-btn'><FontAwesomeIcon icon={faMagnifyingGlass} color='white'/>
         Search
       </Button>
+      
     </div>
   );
 };

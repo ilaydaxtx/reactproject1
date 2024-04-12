@@ -28,12 +28,10 @@
     gap: 50px;
     font-size: 16px;
     color: #676767;
-    text-decoration: none;
     
     .nav-item{
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.543);
         padding: 10px 16px; 
-        border-bottom: none;
     }
 
     .nav-item-active {
@@ -41,6 +39,7 @@
         padding: 5px 8px; 
         margin-right: 18px;
         color: black;
+        border-bottom: 2px solid rgb(255, 132, 0);
         box-shadow: 0 1px 0px rgba(0, 0, 0, 0.55);
         width: 1px;
     }
@@ -48,24 +47,16 @@
 .nav-item:hover{
     cursor: pointer;
     color: black;
-    transform: scale(6.05);
-    transition: ease 0.3s;
-    border-bottom: none;
-    
+    transform: scale(1.05);
+    border-bottom: 0.3px solid rgb(255, 132, 0);
     
     
 }
 
-.button {
+.socials1{
+    display: flex;
+    justify-content: space-around;
     border: none;
     outline: none;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: rgb(255, 132, 0);
-    color: white;
-}
-.button:hover{
-    transform: scale(1.05);
-    transition: ease 0.3s;
-    cursor: pointer;
+    background-color: transparent;
 }

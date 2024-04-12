@@ -8,7 +8,7 @@
         "price": "895.50",
         "bids": 12,
         "daysRemaining": 12,
-        "imageUrl": "../Assets/chair.png"
+        "imageUrl": "chair.png"
       },
       {
         "id": 2,
@@ -18,7 +18,7 @@
         "price": "759",
         "bids": 6,
         "daysRemaining": 12,
-        "imageUrl": "../Assets/table.png"
+        "imageUrl": "table.png"
       },
       {
         "id": 3,
@@ -28,7 +28,7 @@
         "price": "895.50",
         "bids": 16,
         "daysRemaining": 12,
-        "imageUrl": "../Assets/skull.png"
+        "imageUrl": "skull.png"
       }
     ]
   }

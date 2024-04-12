@@ -21,17 +21,28 @@ const RecentlyAdded = () => {
 
   return (
     
-    <div className="items-container">   
+    <div>
+      <h1 className='recentlyadded'>Recently Added</h1>
+      <div className="items-container">
       {items.map(item => (
         <div key={item.id} className="item-card">
-          <img src="/Components/Assets/chair.png" alt={item.title} />
-          <h3>{item.title}</h3>
-          <p>Year: {item.year} | Category: {item.category}</p>
-          <p className="price">${item.price}</p>
-          <p>{item.bids} bids so far. Bidding closes in {item.daysRemaining} Days</p>
-          <button className="details-button">View Details</button>
+          <img src={item.imageUrl} alt={item.title} />
+          <h3 className='item-title'>{item.title}</h3>
+          <p className='item-year'>Year: {item.year} | Category: {item.category}</p>
+          <div className='price-btn-container'>
+            <p className="price">${item.price}</p>
+            <button className="details-button">View Details</button>
+          </div>
+          <div className='item-bids-container'>
+            <p className='item-bids'>{item.bids} bids so far.</p>
+            <p className='item-bids2'>Bidding closes in {item.daysRemaining} Days</p>
+          </div>
+          
         </div>
       ))}
+      </div>
+
+     
     </div>
   );
 };
