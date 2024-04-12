@@ -7,7 +7,7 @@ To get started with React-2024, follow these steps:
 
 1. Clone the repository:
 2. Navigate to the project directory:
-     cd react-2024
+     cd reactproject1
    
 4. Install dependencies:
     npm install
