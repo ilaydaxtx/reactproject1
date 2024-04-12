@@ -1,5 +1,5 @@
 # reactproject1
-Welcome to React-2024! This is a web application developed using React.js, SCSS, jQuery, and Bootstrap.
+Welcome to my React project! This is a web application developed using React.js, SCSS, jQuery, and Bootstrap.
 
 ## Getting Started
 
