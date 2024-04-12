@@ -3,7 +3,7 @@ Welcome to my React project! This is a web application developed using React.js,
 
 ## Getting Started
 
-To get started with React-2024, follow these steps:
+To get started with reactproject1, follow these steps:
 
 1. Clone the repository:
 2. Navigate to the project directory:
